@@ -18,7 +18,7 @@
       
           <div class="form-group">
             <label for="fullname" class="form-label">Tên đầy đủ</label>
-            <input id="fullname" name="fullname" type="text" placeholder="VD: Sơn Đặng" class="form-control">
+            <input id="fullname" name="fullname" type="text" placeholder="VD: Nghĩa Đào" class="form-control">
             <span class="form-message"></span>
           </div>
       
@@ -61,9 +61,9 @@
                     return document.querySelector('#form-1 #password').value
                 }, 'Mật khẩu nhập lại không chính xác')
             ],
-            // onSubmit: (data) => {
-            //     console.log(data);
-            // }
+            onSubmit: (data) => {
+                console.log(data);
+            }
         })
 
       </script>
